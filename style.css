@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header*/
+.header{
+    position: relative;
+    height: 10vh;    
+}
+.fig{
+    padding: 2vh 0 0 20vh;
+}
+header .img{
+    
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 90%;
+    top:20px
+
+}
+.header__person{
+    height: 28px;
+    width: 100%;
+    border-radius: 50px;
+    
+}
+.img{
+    position: absolute;
+    top: -2px;
+    left: 10vh;
+}
+.header ul {
+    position: absolute;
+    top: 2px ;
+    left: 40%;
+}
+li{
+    float: left;
+    padding: 20px;
+    list-style: none;
+    text-transform: capitalize;
+}
+li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+/*first section*/
+.sec-one{
+    height: 60vh;
+    position: relative;
+    background-color: rgb(233, 191, 254);
+
+}
+.img-one{
+    float: right;
+    padding-right: 40vh;
+    padding-top: 40px;
+}
+
+.sec-one .sec {
+    position: absolute;
+    top:10vh;
+    left: 20vh;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: 100;
+
+}
+.sec-one h1 {
+   font-size: 50px;
+   
+}
+.sec-one p{
+    padding: 10px 0 ;
+    font-size: large;
+}
+.sec-one button{
+    padding: 10px;
+    border:none;
+    width: 15vh;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+/*second section*/
+.sec-two{
+    height: 70vh;
+
+}
+.mess{
+    text-align: center;
+    padding: 30px;
+}
+.mess h3{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.mess p{
+    padding-top: 5px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+
+}
+img{
+    margin: 0;
+    padding: 0;
+}
+.mess-2{
+    float: left;
+    width: 33.33%;
+    height: 30vh; 
+}
+.mess-a{
+    padding: 5px 0 0 16vh;  
+}
+.mess-a h3{
+    padding: 10px;
+    text-transform: capitalize;
+}
+.mess-b{
+   padding: 4vh 0 10px;
+}
+.mess-b h3{
+    padding: 10px;
+    text-transform: capitalize;
+}
+.mess-c{
+    padding: 4vh 0 0 0;  
+}
+.mess-c h3{
+    padding: 10px;
+    text-transform: capitalize;
+}
+/*third section*/
+.sec-three{
+    
+    height: 128vh;
+    background-color: rgb(181,210, 252);
+}
+.case{
+    padding: 6vh 0 5vh 16vh;
+    font-family:  Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+.case  h1{
+    padding: 10px 0 0 0;
+}
+.sec-three-a{
+    position: relative;
+}
+.case-img{
+    padding-left: 17vh;
+}
+.case-aa{
+    position: absolute;
+    left: 123vh;
+    top:0vh;
+    border: black solid 2px;
+    background-color: black;
+    color: rgb(181,210, 252);
+    height: 50vh;
+    width: 50vh;
+    border-radius: 4px;
+    padding: 5vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.case-aa h1{
+    color: white;
+    padding: 40px 0 50px 0;
+    font-size: 5vh;
+}
+.case-aa p{
+    text-transform: capitalize;
+}
+
+.case-a{
+    position: absolute;
+    left: 17vh;
+    padding-top:10vh;
+}
+.case-a:hover,.case-b:hover,.case-c:hover{
+    border-top: 5px solid black;
+    cursor: pointer;
+    padding-top: 10vh;
+}
+.case-a h3{
+    padding: 0 0 10px 0 ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.case-a p{
+    
+    padding: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.case-b{
+    position: absolute;
+    left: 55vh;
+    padding: 10vh 0 0 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.case-b h3{
+    padding: 0 0 10px 0 ;
+}
+.case-b p{
+    padding: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.case-c{
+    position: absolute;
+    left: 90vh;
+    padding: 10vh 0 0 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.case-c h3{
+    padding: 0 0 10px 0 ;
+}
+.case-c p{
+    padding: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+.press-one{
+    position: absolute;
+    top:100vh;
+    left: 17vh;
+    
+}
+.press-one button{
+    height: 5vh;
+    width: 40vh;
+    color: white;
+    background-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 5px;
+    
+}
+/*first main*/
+.main-one{
+    height: 80vh;
+    background-color: black;
+    color: white;
+}
+.main-a{
+    text-align: center;
+    padding: 6vh 0 3vh 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-b div{
+    float: left;
+    width: 33.33%;
+}
+.main-aa {
+    padding-left: 20vh;   
+}
+.main-aa img{
+    padding-bottom: 20px;
+    width: 40vh;
+}
+.main-aa h3{
+  padding-bottom: 10px;  
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+.main-aa p{
+    padding: 0 0 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-bb{
+    padding-left: 10vh;   
+}
+.main-bb img{
+    padding-bottom: 20px;
+    width: 40vh;
+}
+.main-bb h3{
+    padding-bottom: 10px;  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.main-bb p{
+    padding: 0 0 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-cc img{
+    padding-bottom: 20px;
+    width: 40vh
+}
+.main-cc h3{
+    padding-bottom: 10px;  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.main-cc p{
+    padding: 0 0 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*article*/
+article{
+    background-color: rgb(181,210, 252);
+    height: 130vh;
+    position: relative;
+}
+.art-a {
+    padding: 8vh 0 5vh 20vh;
+    font-family:  Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+.art-a p{
+    padding-bottom: 2vh;
+}
+.art-img img{
+    
+    padding-left: 20vh;
+    width: 115vh;
+    height: 55vh;
+}
+.art-aa{
+    position: absolute;
+    left: 125vh;
+    top: 22vh;
+    background-color: black;
+    color: rgb(181,210, 252);
+    height: 50vh;
+    width: 50vh;
+    border-radius: 10px;
+    padding: 30px
+}
+.art-aa blockquote{
+    padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.art-aa h3{
+    color: white;
+    padding: 20px 0 20px 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+.art-aa p{
+    text-transform: capitalize;
+    padding-top: 10px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.art-b div{
+    float: left;
+    width: 25%;
+}
+.art-bb{
+    padding:5vh 0 0 20vh;
+}
+.art-bb h3{
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.art-bb p{
+    padding-bottom: 2px;
+    font-family: sans-serif;
+}
+.art-bb h3:hover{
+    border-top: 5px solid black;
+    color: black;
+    opacity: 20vh;
+    width: 20vh;
+}
+.art-cc{
+    padding:5vh 0 0 10vh;
+}
+.art-cc h3{
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.art-cc p{
+    padding-bottom: 2px;
+    font-family: sans-serif;
+}
+.art-cc h3:hover{
+    border-top: 5px solid black;
+    color: black;
+    opacity: 20vh;
+    width: 20vh;
+}
+.art-dd{
+    padding:5vh 0 0 1px;
+}
+.art-dd  h3{
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.art-dd p{
+    padding-bottom: 2px;
+    font-family: sans-serif;
+}
+.art-dd h3:hover{
+    border-top: 5px solid black;
+    color: black;
+    opacity: 20vh;
+    width: 20vh;
+}
+.art-btn{
+    position: absolute;
+    top: 110vh;
+    left: 20vh;
+}
+.art-btn button{
+    padding: 10px;
+    border-radius: 10px;
+    width: 40vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    color: white;
+    background-color: black;
+}
+/*footer*/
+.footer{
+    height: 180vh;
+    
+    
+}
+
+.foot{
+    padding: 20px 0 0 20vh ;
+    text-align: center;
+    font-weight: 500;
+}
+.foot h2{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.foot p{
+    padding-bottom: 8vh;
+    cursor: pointer;
+}
+.foot-one div{ 
+    float: left;
+    width: 33.33%;
+    height: 70vh;
+    cursor: pointer;
+}
+.foot-one-a{
+ padding: 0 0 0 20vh;
+ cursor: pointer;
+}
+.foot-one-a h3+p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0 10px 0;
+    cursor: pointer;
+}
+.foot-one-b{
+    padding: 0 0 0 10vh;
+    cursor: pointer; 
+}
+.foot-one-b h3+p {
+       font-family: Arial, Helvetica, sans-serif;
+       padding: 20px 0 10px 0;
+       cursor: pointer;
+       
+}
+.foot-one-c h3+p {
+       font-family: Arial, Helvetica, sans-serif;
+       padding: 20px 0 10px 0;
+       
+}
+.foot a,.foot-one a{
+    text-decoration: none;
+}
+.foot-two div {
+    float: left;
+    width: 20%;
+}
+.foot-two-a{
+    padding-left: 20vh;
+    cursor: pointer;
+}
+.foot-two-b{
+    padding-left: 50px;
+    cursor: pointer;
+}
+.foot-two h3{
+    padding: 10px 0 10px 0;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.foot-two p{
+    padding: 10px 0 10px 0;
+    cursor: pointer;
+}
+.foot-two-f{
+    position: relative;
+    top:40vh;
+    right: 70vh;
+    cursor: pointer;
+}
